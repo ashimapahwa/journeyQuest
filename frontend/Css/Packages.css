@@ -1,0 +1,48 @@
+#packages {
+  height: 100vh;
+  width: 98.8vw;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.details {
+  position: absolute;
+  top: 0;
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.44);
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.swiper2 {
+  height: 35vh;
+  width: 70vw;
+  position: absolute;
+  bottom: 40px;
+}
+
+.swiper-slide2 {
+  overflow: hidden;
+  height: 38vh;
+  border-radius: 5px;
+}
+
+#packages > img {
+  width: 100%;
+}
+
+.swiper-slide2 > img {
+  width: 100%;
+}
+
+.package-overlay {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /* background-color: rgba(0, 0, 0, 0.307); */
+}

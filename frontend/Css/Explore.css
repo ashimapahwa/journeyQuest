@@ -1,0 +1,43 @@
+#explore {
+  height: 100vh;
+  width: 98.8vw;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  margin-top: 0;
+}
+
+.cubeImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.overlay-explore {
+  position: absolute;
+  bottom: 0;
+  backdrop-filter: blur(30px);
+  color: white;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  height: 25vh;
+  padding: 7px 15px;
+}
+
+.content {
+  margin-left: 30px;
+  width: 40vw;
+  margin-top: 7vh;
+}
+
+.content > h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  width: 30vw;
+}
+
+.content > p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
